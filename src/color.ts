@@ -12,9 +12,9 @@ export class Color {
     }
 
     public static fromHex(hex: string) {
-        const red = parseInt(hex.substr(1, 2), 16);
-        const green = parseInt(hex.substr(3, 2), 16);
-        const blue = parseInt(hex.substr(5, 2), 16);
+        const red = parseInt(hex.substring(1, 3), 16);
+        const green = parseInt(hex.substring(3, 5), 16);
+        const blue = parseInt(hex.substring(5), 16);
 
         return new Color(red, green, blue);
     }

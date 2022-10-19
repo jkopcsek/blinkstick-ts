@@ -1,6 +1,7 @@
 import { Color } from "../color";
 
 export type Farbe = Color;
+export const FarbeHex = Color.fromHex;
 
 export const Farben = {
     "Eisfarben": Color.fromHex("#F0F8FF"),
