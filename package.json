@@ -1,0 +1,29 @@
+{
+  "name": "blinkstick-ts",
+  "version": "0.1.0",
+  "description": "BlinkStick TypeScript implementation",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkopcsek/blinkstick-ts.git"
+  },
+  "keywords": [
+    "blinkstick",
+    "usb",
+    "typescript"
+  ],
+  "author": "Jan Kopcsek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jkopcsek/blinkstick-ts/issues"
+  },
+  "homepage": "https://github.com/jkopcsek/blinkstick-ts#readme",
+  "devDependencies": {
+    "@types/node-hid": "^1.3.1",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "node-hid": "^2.1.2"
+  }
+}
