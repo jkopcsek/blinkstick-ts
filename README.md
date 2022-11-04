@@ -22,3 +22,21 @@ const led1: Led = channel.getLed(0);
 const led2: Led = channel.getLed(1);
 ```
 
+# Functional API 
+
+An alternative to the object-oriented API is the functional API. Here, it's all functions, no objects. Simple to start with.
+
+```
+setColor(0, Colors.red);
+setColors([Colors.red, Colors.green]);
+```
+
+## German version
+
+There is also a german variant of the functional API.
+
+```
+setzeFarbe(0, Farben.Rot);
+setzeFarben([Farben.Rot, Farben.Grün]);
+```
+
