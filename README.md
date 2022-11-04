@@ -9,7 +9,7 @@ TypeScript implementation of BlinkStick. Also, a bit of a reimagination of the A
 
 # Examples
 
-[[src/examples/basic.ts]]
+See [Examples at GitHub](https://github.com/jkopcsek/blinkstick-ts/tree/main/src/examples)
 
 # Object-Orientied API 
 
