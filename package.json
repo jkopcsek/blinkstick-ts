@@ -1,10 +1,11 @@
 {
   "name": "blinkstick-ts",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "description": "BlinkStick TypeScript implementation",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
+    "start": "npx ts-node src/examples/basic.ts",
     "build": "tsc"
   },
   "repository": {
@@ -23,10 +24,11 @@
   },
   "homepage": "https://github.com/jkopcsek/blinkstick-ts#readme",
   "devDependencies": {
-    "@types/node-hid": "^1.3.1",
-    "typescript": "^4.8.4"
+    "@types/node-hid": "^1.3.4",
+    "chalk": "^4.1.2",
+    "typescript": "^5.3.3"
   },
   "dependencies": {
-    "node-hid": "^2.1.2"
+    "node-hid": "^3.0.0"
   }
 }

@@ -11,6 +11,10 @@ TypeScript implementation of BlinkStick. Also, a bit of a reimagination of the A
 
 See [Examples at GitHub](https://github.com/jkopcsek/blinkstick-ts/tree/main/src/examples)
 
+Run with 
+
+```npx ts-node src/examples/basic.ts```
+
 # Object-Orientied API 
 
 A BlinkStick provides access to multiple LEDs potentially organized in multiple channels (i.e. lines of LEDs). 

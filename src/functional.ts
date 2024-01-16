@@ -1,8 +1,9 @@
 import { setTimeout } from "timers/promises";
-import { BlinkSticks } from "./blinksticks";
 import { Color } from "./color";
+import { Simulation } from "./simulation/simulation";
 
-export const blinkStick = new BlinkSticks().findFirst();
+//export const blinkStick = new BlinkSticks().findFirst();
+export const blinkStick = Simulation.createBlinkStickWithLedLine(32);
 
 export function setColor(position: number, color: Color) {
     blinkStick?.setColor(color, position);

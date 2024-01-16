@@ -1,5 +1,5 @@
-import { BlinkStickChannel } from "./blinkstick-channel";
 import { Color } from "./color";
+import { LedLine } from "./led-line.interface";
 
 export interface IBlinkStick {
     setColor(color: Color, index?: number, channel?: number): void;
@@ -8,7 +8,7 @@ export interface IBlinkStick {
     getColor(index?: number, channel?: number): Color;
     getColors(count: number, index?: number, channel?: number): Color[];
 
-    getChannel(channel?: number): BlinkStickChannel;
+    getChannel(channel?: number): LedLine;
     
     close(): void;
 }
