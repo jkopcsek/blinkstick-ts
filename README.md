@@ -44,3 +44,15 @@ setzeFarbe(0, Farben.Rot);
 setzeFarben([Farben.Rot, Farben.Grün]);
 ```
 
+## Simulator 
+
+You can use simulated led lines and print to the terminal
+
+```
+████████████████████████████████
+████████████████████████████████
+████████████████████████████████
+████████████████████████████████
+████████████████████████████████
+██
+```
